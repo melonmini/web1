@@ -11,9 +11,8 @@
         TEXT-decoration: none;
       }
       h1 {
-        front-size:45px;
+        font-size:35px;
         text-align: center;
-        border-bottom: 1px solid gray;
         margin: 0;
         padding: 20px;
         text-decoration: none;
@@ -26,12 +25,11 @@
       #grid
       {
         display: grid;
-        grid-template-columns: 150px 1fr;
+          padding-left:50px;
+          padding-right:50px;
+        grid-template-columns: 1fr;
       }
-      #menu ol{
-        padding-left:50px;
-        font-size: 35px;
-      }
+
       #article{
         padding-left:33px;
         padding-right: 33px;
@@ -40,45 +38,33 @@
       .imgbox{
         disply: grid;
         height; 100%;
+          grid-template-columns: 1fr 1fr 1fr;
       }
-      .center-fit{
+      .small{
         max-width:100%;
         max-height: 100vh;
         margin: auto;
-      }
-      @media(max-width:650px){
-        h1{
-          border-bottom: none;
-        }
-        ol{
-          border-right: none;
-        }
-        #grid{
-          display:block;
-        }
       }
     </STYLE>
   </head>
   <body>
     <h1><a href="시작.html">Gallary</a></h1>
-    <div id="grid">
-      <div id="menu">
-      <ol>
-        <li><a href="장난.html">장난</a></li>
-        <li><a href="크롱.html">크롱</a></li>
-        <li><a href="뻥튀기.html">뻥튀</a></li>
-        <li><a href="핑크.html">핑크</a></li>
-        <li><a href="우산.html">우산</a></li>
-      </ol>
-    </div>
-      <div id="article">
-          <h2>포트레이트</h2>
-          <p>
-            사진폴더를 뒤져보니 어릴쩍 사진들이 대부분 이다
-            최근사진이 별로 없네
-            분발하자...
-          </p>
-      </div>
-    </div>
+       <p>
+          <div id="grid">
+            <div class="imgbox">
+              <img class="small" src="서영초록바다로.jpg">
+              <img class="small"src="졸업윤서친구.jpg">
+              <img class="small"src="졸업윤서교실.jpg">
+              <img class="small"src="예인좌탁.jpg">
+              <img class="small"src="서영공부.jpg">
+              <img class="small"src="예인똥머리.jpg">
+              <img class="small"src="화연이.jpg">
+              <img class="small"src="구자림.jpg">
+              <img class="small"src="서영발레.jpg">
+              <img class="small"src="서영탐구.jpg">
+              <img class="small"src="펜던트.jpg">
+            </div>
+          </div>
+        </p>
   </body>
 </html>
