@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>윤서특성</title>
+    <title>시작</title>
     <STYLE>
       BODY {
         margin: 0;
@@ -31,25 +31,35 @@
         display: grid;
         grid-template-columns: 150px 1fr;
       }
-      #menu ol{
-        padding-left:50px;
-        font-size: 35px;
+      #menu
+      {
+        padding-left:25px;
+        font-size:20px;
       }
       #article{
         padding-left:33px;
         padding-right: 33px;
         border-left: 1px solid gray;
       }
-      .imgbox{
+      .imgbox
+      {
         disply: grid;
         height; 100%;
       }
-      .center-fit{
+      .centered
+      {
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .center-fit
+      {
         max-width:100%;
         max-height: 100vh;
         margin: auto;
       }
-      @media(max-width:650px){
+      @media(max-width:650px)
+      {
         h1{
           border-bottom: none;
         }
@@ -63,24 +73,23 @@
     </STYLE>
   </head>
   <body>
-    <h1><a href="시작.html">내사랑 윤서</a></h1>
+    <h1>video</h1>
     <div id="grid">
       <div id="menu">
-      <ol>
-        <li><a href="윤서사진.html">사진</a></li>
-        <li><a href="엄마특성.html">그림</a></li>
-        <li><a href="윤서영상.html">영상</a></li>
-        <li><a href="학교노래.html">학교</a></li>
-        <li><a href="윤서친구.html">친구</a></li>
-      </ol>
-    </div>
+        <ol>
+          <li><a href="July2005.html">July2005</a></li>
+          <li><a href="2005여름.html">2005여름</a></li>
+          <li><a href="2005안중.html">2005안중</a></li>
+        </ol>
+      </div>
       <div id="article">
-          <h2></h2>
-          <p>
-          <div class="imgbox">
-            <img class="center-fit" src="화연이.jpg">
+        <h2></h2>
+        <p>
+          <div class="centered">
+            <iframe width=600 height=450 src="https://www.youtube.com/embed/bD6rrZpFM8c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+            </iframe>
           </div>
-          </p>
+        </P>
       </div>
     </div>
   </body>
