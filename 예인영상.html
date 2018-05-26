@@ -31,26 +31,35 @@
         display: grid;
         grid-template-columns: 150px 1fr;
       }
-      #menu ol{
-        padding-left:50px;
-        font-size: 35px;
-
+      #menu
+      {
+        padding-left:25px;
+        font-size:20px;
       }
       #article{
         padding-left:33px;
         padding-right: 33px;
         border-left: 1px solid gray;
       }
-      .imgbox{
+      .imgbox
+      {
         disply: grid;
         height; 100%;
       }
-      .center-fit{
+      .centered
+      {
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .center-fit
+      {
         max-width:100%;
         max-height: 100vh;
         margin: auto;
       }
-      @media(max-width:650px){
+      @media(max-width:650px)
+      {
         h1{
           border-bottom: none;
         }
@@ -64,23 +73,26 @@
     </STYLE>
   </head>
   <body>
-    <h1>시작</h1>
+    <h1>video</h1>
     <div id="grid">
       <div id="menu">
         <ol>
-          <li><a href="아빠특성.html">아빠</a></li>
-          <li><a href="엄마특성.html">엄마</a></li>
-          <li><a href="윤서특성.html">윤서</a></li>
-          <li>서영</li>
-          <li><a href="예인페이지.html">예인</a></li>
-          <li>서영</li>
+          <li><a href="2018왜목1.html">"18왜목1</a></li>
+          <li><a href="2018왜목2.html">"18왜목2</a></li>
+          <li><a href="2005부안.html">3</a></li>
+          <li><a href="2005고산.html">4</a></li>
+          <li><a href="2005서울.html">5</a></li>
+          <li><a href="2005안중.html">6</a></li>
         </ol>
       </div>
       <div id="article">
         <h2></h2>
         <p>
-        <img class="center-fit" src="졸업윤서교실.jpg">
-        </p>
+          <div class="centered">
+            <iframe width=800 height=450 src="https://www.youtube.com/embed/LA4XO-IJKNA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+            </iframe>
+          </div>
+        </P>
       </div>
     </div>
   </body>
