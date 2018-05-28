@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<title>아빠특성</title>
+<meta charset="utf-8">
+<STYLE>
+      BODY {
+        margin: 0;
+        background-color: black;
+        color: white;
+      }
+      a {
+        COLOR:blue;
+        TEXT-decoration: none;
+      }
+      h1 {
+        front-size:45px;
+        text-align: center;
+        border-bottom: 1px solid gray;
+        margin: 0;
+        padding: 20px;
+        text-decoration: none;
+      }
+      ol{
+        width: 100px;
+        margin: 0;
+        padding: 20px;
+      }
+      #grid
+      {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+      }
+      #menu ol{
+        padding-left:50px;
+        font-size: 35px;
+      }
+      #article{
+        padding-left:33px;
+        padding-right: 33px;
+        border-left: 1px solid gray;
+      }
+      .imgbox{
+        disply: grid;
+        height; 100%;
+      }
+      .center-fit{
+        max-width:100%;
+        max-height: 100vh;
+        margin: auto;
+      }
+      @media(max-width:650px){
+        h1{
+          border-bottom: none;
+        }
+        ol{
+          border-right: none;
+        }
+        #grid{
+          display:block;
+        }
+      }
+    </STYLE>
+</head>
+<body>
+    <h1><a href="시작.html">엄마페이지</a></h1>
+    <div id="grid">
+      <div id="menu">
+      <ol>
+        <li>사진</li>
+        <li>그림</li>
+        <li><a href="아빠영상.html">영상</a></li>
+        <li><a href="아빠노래.html">노래</a></li>
+        <li>친구</li>
+      </ol>
+    </div>
+      <div id="article">
+          <h2></h2>
+          <p>
+          <div class="imgbox">
+            <img class="center-fit" src="아빠간판.jpg">
+          </div>
+          </p>
+      </div>
+    </div>
+  </body>
+</html>
