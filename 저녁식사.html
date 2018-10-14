@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>서영영상</title>
+    <STYLE>
+      BODY {
+        margin: 0;
+        background-color: black;
+        color: white;
+      }
+      a {
+        COLOR:blue;
+        TEXT-decoration: none;
+      }
+      h1 {
+        front-size:45px;
+        text-align: center;
+        border-bottom: 1px solid gray;
+        margin: 0;
+        padding: 20px;
+        text-decoration: none;
+      }
+      ol{
+        width: 100px;
+        margin: 0;
+        padding: 20px;
+      }
+      #grid
+      {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+      }
+      #menu
+      {
+        padding-left:25px;
+        font-size:20px;
+      }
+      #article{
+        padding-left:33px;
+        padding-right: 33px;
+        border-left: 1px solid gray;
+      }
+      .imgbox
+      {
+        disply: grid;
+        height; 100%;
+      }
+      .centered
+      {
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .center-fit
+      {
+        max-width:100%;
+        max-height: 100vh;
+        margin: auto;
+      }
+      @media(max-width:650px)
+      {
+        h1{
+          border-bottom: none;
+        }
+        ol{
+          border-right: none;
+        }
+        #grid{
+          display:block;
+        }
+      }
+    </STYLE>
+  </head>
+  <body>
+    <h1>video</h1>
+    <div id="grid">
+      <div id="menu">
+        <ol>
+          <li><a href="저녁식사.html">저녁식사</a></li>
+          <li><a href="2005여름.html">2005여름</a></li>
+          <li><a href="2005부안.html">2006부안</a></li>
+          <li><a href="2005고산.html">2005고산</a></li>
+          <li><a href="2005서울.html">2005서울</a></li>
+          <li><a href="2005안중.html">2005안중</a></li>
+        </ol>
+      </div>
+      <div id="article">
+        <h2></h2>
+        <p>
+          <div class="centered">
+            <iframe width=800 height=450 src="https://youtu.be/w-e2tI9Su2M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+            </iframe>
+          </div>
+        </P>
+      </div>
+    </div>
+  </body>
+</html>
